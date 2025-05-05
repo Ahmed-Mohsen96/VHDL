@@ -1,0 +1,82 @@
+# VHDL OR Gate Implementation
+
+This repository contains a simple VHDL implementation of a 2-input OR gate along with its testbench.
+
+## Project Overview
+
+This project demonstrates the implementation of a basic OR logic gate in VHDL. The OR gate takes two single-bit inputs and produces a single-bit output that is high when at least one of the inputs is high.
+
+## Files Description
+
+- **or_trl.vhd**: Main implementation of the OR logic gate
+- **or_tb.vhd**: Testbench to verify the functionality of the OR gate
+
+## Implementation Details
+
+The OR gate is implemented using a simple behavioral architecture:
+
+```vhdl
+port3 <= port1 or port2;
+```
+
+Where:
+- `port1` and `port2` are the input ports
+- `port3` is the output port
+
+## Testbench
+
+The testbench verifies the behavior of the OR gate by applying different combinations of inputs:
+
+1. Both inputs start at '0'
+2. `port1` toggles between '0' and '1' every 50 ns
+3. `port2` toggles between '0' and '1' every 100 ns
+
+This creates all possible input combinations:
+- (0,0) → output should be 0
+- (1,0) → output should be 1
+- (0,1) → output should be 1
+- (1,1) → output should be 1
+
+## Development Environment
+
+This project was developed using Xilinx ISE Design Suite.
+
+## Usage
+
+To use this project:
+1. Open the project in a VHDL-compatible development environment
+2. Compile the design files
+3. Run the simulation with the testbench
+4. View the waveform output to verify correct functioning
+
+## Truth Table
+
+| port1 | port2 | port3 (output) |
+|-------|-------|----------------|
+| 0     | 0     | 0              |
+| 0     | 1     | 1              |
+| 1     | 0     | 1              |
+| 1     | 1     | 1              |
+
+## Circuit Diagram
+
+A simple OR gate with two inputs:
+
+```
+port1 ----\
+           OR ---- port3
+port2 ----/
+```
+
+## Expected Waveform Behavior
+
+During simulation, you should observe:
+- When both inputs are 0, the output is 0
+- When either or both inputs are 1, the output is 1
+- The output changes state without delay (ideal behavior)
+
+## Related Projects
+
+This OR gate is part of a series of basic logic gate implementations in VHDL:
+- [AND Gate](https://github.com/AhmedMohsen-hub/VHDL-AND-Gate)
+- OR Gate (this project)
