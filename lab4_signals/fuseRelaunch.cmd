@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/lab4_signals/signal_tb_isim_beh.exe" -prj "/home/ise/lab4_signals/signal_tb_beh.prj" "work.signal_tb" 

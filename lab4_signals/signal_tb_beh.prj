@@ -1,0 +1,2 @@
+vhdl work "signal_rtl.vhd"
+vhdl work "signal_tb.vhd"
