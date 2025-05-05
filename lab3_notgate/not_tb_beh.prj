@@ -1,0 +1,2 @@
+vhdl work "not_rtl.vhd"
+vhdl work "not_tb.vhd"

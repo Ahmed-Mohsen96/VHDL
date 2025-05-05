@@ -1,0 +1,2 @@
+vhdl isim_temp "not_rtl.vhd"
+vhdl isim_temp "not_tb.vhd"
