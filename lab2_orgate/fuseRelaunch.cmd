@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/lab2_orgate/or_tb_isim_beh.exe" -prj "/home/ise/lab2_orgate/or_tb_beh.prj" "work.or_tb" 
