@@ -78,5 +78,5 @@ During simulation, you should observe:
 ## Related Projects
 
 This OR gate is part of a series of basic logic gate implementations in VHDL:
-- [AND Gate](https://github.com/AhmedMohsen-hub/VHDL-AND-Gate)
+- [AND Gate](https://github.com/Ahmed-Mohsen96/VHDL/tree/main/lab1_andgate)
 - OR Gate (this project)
