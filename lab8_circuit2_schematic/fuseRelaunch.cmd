@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/lab8_circuit2_schematic/circuit2_sch_circuit2_sch_sch_tb_isim_beh.exe" -prj "/home/ise/lab8_circuit2_schematic/circuit2_sch_circuit2_sch_sch_tb_beh.prj" "work.circuit2_sch_circuit2_sch_sch_tb" 

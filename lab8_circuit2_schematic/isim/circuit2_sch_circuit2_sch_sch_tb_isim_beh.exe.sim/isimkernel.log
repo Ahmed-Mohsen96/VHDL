@@ -1,0 +1,28 @@
+Command line:
+   circuit2_sch_circuit2_sch_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34476
+
+Mon May  5 17:06:57 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.726 Meg
+
+ Total Signals          : 57
+ Total Nets             : 34
+ Total Signal Drivers   : 9
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 9
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 517
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 276.324 Meg
+
+Mon May  5 17:08:01 2025
+

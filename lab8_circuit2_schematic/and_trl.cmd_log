@@ -1,0 +1,2 @@
+vhdtdtfi -lib work and_trl.vhd -prj lab8_circuit2_schematic -o and_trl.spl -module and_trl -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 and_trl.spl /home/ise/lab8_circuit2_schematic/and_trl.sym 

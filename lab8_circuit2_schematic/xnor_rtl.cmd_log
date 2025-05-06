@@ -1,0 +1,6 @@
+vhdtdtfi -lib work xnor_rtl.vhd -prj lab8_circuit2_schematic -o xnor_rtl.spl -module xnor_rtl -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 xnor_rtl.spl /home/ise/lab8_circuit2_schematic/xnor_rtl.sym 
+vhdtdtfi -lib work xnor_rtl.vhd -prj lab8_circuit2_schematic -o xnor_rtl.spl -module xnor_rtl -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 xnor_rtl.spl /home/ise/lab8_circuit2_schematic/xnor_rtl.sym 
+vhdtdtfi -lib work xnor_rtl.vhd -prj lab8_circuit2_schematic -o xnor_rtl.spl -module xnor_rtl -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 -w xnor_rtl.spl /home/ise/lab8_circuit2_schematic/xnor_rtl.sym 

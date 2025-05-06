@@ -1,0 +1,5 @@
+vhdl isim_temp "xor_rtl.vhd"
+vhdl isim_temp "xnor_rtl.vhd"
+vhdl isim_temp "or_rtl.vhd"
+vhdl isim_temp "and_trl.vhd"
+vhdl isim_temp "circuit2_sch_tb.vhd"

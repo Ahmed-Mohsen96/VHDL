@@ -1,0 +1,6 @@
+vhdl work "xor_rtl.vhd"
+vhdl work "xnor_rtl.vhd"
+vhdl work "or_rtl.vhd"
+vhdl work "and_trl.vhd"
+vhdl work "circuit2_sch.vhf"
+vhdl work "circuit2_sch_tb.vhd"

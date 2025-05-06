@@ -1,0 +1,6 @@
+[Inputs]
+port1
+port2
+[Outputs]
+port3
+[BiDir]

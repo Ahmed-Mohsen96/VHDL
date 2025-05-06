@@ -1,0 +1,2 @@
+vhdtdtfi -lib work xor_rtl.vhd -prj lab8_circuit2_schematic -o xor_rtl.spl -module xor_rtl -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 xor_rtl.spl /home/ise/lab8_circuit2_schematic/xor_rtl.sym 
