@@ -1,0 +1,7 @@
+MODULE circuit1_sch
+	SUBMODULE or_rtl
+		INSTANCE XLXI_1
+	SUBMODULE and_rtl
+		INSTANCE XLXI_2
+	SUBMODULE xnor_rtl
+		INSTANCE XLXI_3

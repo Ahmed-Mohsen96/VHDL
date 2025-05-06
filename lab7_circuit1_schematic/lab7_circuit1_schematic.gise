@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab7_circuit1_schematic.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="and_rtl.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="and_rtl.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="and_rtl.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="and_rtl.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="and_rtl.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="circuit1_sch.vhf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuit1_sch_circuit1_sch_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="circuit1_sch_circuit1_sch_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="circuit1_sch_circuit1_sch_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuit1_sch_circuit1_sch_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="or_rtl.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="or_rtl.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="or_rtl.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="or_rtl.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="or_rtl.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="xnor_rtl.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="xnor_rtl.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="xnor_rtl.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="xnor_rtl.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="xnor_rtl.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1746462390" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1746462390">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1746463114" xil_pn:in_ck="-5864119500069962777" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1746463114">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="and_rtl.vhd"/>
+      <outfile xil_pn:name="circuit1_tb.vhd"/>
+      <outfile xil_pn:name="or_rtl.vhd"/>
+      <outfile xil_pn:name="xnor_rtl.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1746463118" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2570245235500971638" xil_pn:start_ts="1746463118">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1746463120" xil_pn:in_ck="8797800615964741261" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5002569708009986732" xil_pn:start_ts="1746463118">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="circuit1_sch.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1746463120" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6388064975305130196" xil_pn:start_ts="1746463120">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1746463120" xil_pn:in_ck="3668483995886287802" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1746463120">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="and_rtl.vhd"/>
+      <outfile xil_pn:name="circuit1_sch.vhf"/>
+      <outfile xil_pn:name="circuit1_tb.vhd"/>
+      <outfile xil_pn:name="or_rtl.vhd"/>
+      <outfile xil_pn:name="xnor_rtl.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1746463122" xil_pn:in_ck="3668483995886287802" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-367887540952473809" xil_pn:start_ts="1746463120">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="circuit1_sch_circuit1_sch_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="circuit1_sch_circuit1_sch_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1746463122" xil_pn:in_ck="-4616457163887556222" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2608958561453710660" xil_pn:start_ts="1746463122">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="circuit1_sch_circuit1_sch_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

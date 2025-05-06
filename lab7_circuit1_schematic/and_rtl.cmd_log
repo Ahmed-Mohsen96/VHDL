@@ -1,0 +1,2 @@
+vhdtdtfi -lib work and_rtl.vhd -prj lab7_circuit1_schematic -o and_rtl.spl -module and_rtl -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 and_rtl.spl /home/ise/lab7_circuit1_schematic/and_rtl.sym 

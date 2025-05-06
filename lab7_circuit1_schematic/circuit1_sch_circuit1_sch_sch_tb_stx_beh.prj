@@ -1,0 +1,4 @@
+vhdl isim_temp "xnor_rtl.vhd"
+vhdl isim_temp "or_rtl.vhd"
+vhdl isim_temp "and_rtl.vhd"
+vhdl isim_temp "circuit1_tb.vhd"
