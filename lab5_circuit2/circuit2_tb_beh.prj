@@ -1,0 +1,2 @@
+vhdl work "circiut2_rtl.vhd"
+vhdl work "circuit2_tb.vhd"
